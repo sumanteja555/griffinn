@@ -69,7 +69,6 @@ export default function HomeCover() {
       </Swiper>
       <div className={styles.companyInfoContainer}>
         <img src={logo} alt="" className={styles.companyLogo} />
-        <p className={styles.companyTitle}>GRIFFINN 360 ADVENTURES</p>
       </div>
     </div>
   );

@@ -46,19 +46,19 @@ const tripsData = [
   },
   {
     location: "SPIRITUAL & YOGA PARADISE",
-    title: "image 6",
+    title: "image 7",
     date: "may26-jun3",
     src: img7,
   },
   {
     location: "SPIRITUAL & YOGA PARADISE",
-    title: "image 6",
+    title: "image 8",
     date: "may26-jun3",
     src: img8,
   },
   {
     location: "SPIRITUAL & YOGA PARADISE",
-    title: "image 6",
+    title: "image 9",
     date: "may26-jun3",
     src: img9,
   },

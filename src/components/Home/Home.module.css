@@ -30,19 +30,9 @@
   position: absolute;
   inset: 0;
   width: fit-content;
-  height: fit-content;
   margin: auto;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.companyLogo {
-}
-.companyTitle {
-  font-size: xx-large;
-  font-weight: bolder;
+  margin-top: 20vh;
 }
 
 /* Count styles */
@@ -319,11 +309,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  /* Home cover arrows */
-  .arrow:before,
-  .arrow:after {
-    top: 12rem;
-  }
   /* counts container */
   #countsContainer {
     grid-template-columns: repeat(2, 1fr);
@@ -352,12 +337,9 @@
   }
 }
 @media screen and (max-width: 576px) {
-  #homeImgContainer img {
-    /* home Container styles */
-    object-fit: cover;
-  }
-  #homeText {
-    bottom: 20rem;
+  /* home carousel container */
+  .companyInfoContainer {
+    margin-top: 20vh;
   }
 
   /* counts container */

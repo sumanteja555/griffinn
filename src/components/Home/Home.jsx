@@ -1,9 +1,7 @@
 import Count from "./Count";
 import HomeCover from "./HomeCover";
 import Reviews from "./Reviews";
-import Subscribe from "./Subscribe";
 import UpcomingTrips from "./UpcomingTrips";
-import Youtube from "./Youtube";
 import tripsData from "../../utils/UpcomingTrips.js";
 import styles from "../Home/Home.module.css";
 export default function Home() {
@@ -15,7 +13,11 @@ export default function Home() {
       <section className={styles.tripsContainer}>
         <div className={styles.upcomingTripsContainer}>
           {tripsData.map((trip) => (
-            <UpcomingTrips {...trip} className={styles.upcoming} />
+            <UpcomingTrips
+              {...trip}
+              className={styles.upcoming}
+              key={trip.title}
+            />
           ))}
         </div>
       </section>

@@ -340,6 +340,10 @@
   /* home carousel container */
   .companyInfoContainer {
     margin-top: 20vh;
+    text-align: center;
+  }
+  .companyLogo {
+    width: 80%;
   }
 
   /* counts container */

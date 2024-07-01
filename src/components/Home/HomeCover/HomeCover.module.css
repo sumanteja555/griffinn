@@ -1,0 +1,45 @@
+/* homeCover Containerr */
+#homeCoverContainer {
+  min-height: 100vh;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.mySwiper {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.carouselImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
+}
+.companyInfoContainer {
+  position: absolute;
+  inset: 0;
+  width: fit-content;
+  margin: auto;
+  z-index: 2;
+  margin-top: 20vh;
+}
+
+@media screen and (max-width: 576px) {
+  /* home carousel container */
+  .companyInfoContainer {
+    margin-top: 20vh;
+    text-align: center;
+  }
+  .companyLogo {
+    width: 80%;
+  }
+}

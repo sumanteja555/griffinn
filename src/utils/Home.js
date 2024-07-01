@@ -1,3 +1,9 @@
+import adventure from "../assets/home/adventure.jpg";
+import night from "../assets/home/night.jpg";
+import backPack from "../assets/home/backpack.jpg";
+import treks from "../assets/home/treks.jpg";
+import weekend from "../assets/home/weekend.jpg";
+
 export const reviews = [
   {
     name: "voocha madhu babu",
@@ -47,29 +53,30 @@ export const reviews = [
   },
 ];
 
-export const youtube = [
+export const categories = [
   {
-    videoUrl: "https://www.youtube.com/embed/A7fxVkOFh-A?si=FaJhZgz1ZCxpgEy5",
+    img: adventure,
+    title: "Adventure Activities",
+    link: "/adventureactivities",
   },
   {
-    videoUrl: "https://www.youtube.com/embed/e9-8aH-09Go?si=4OMiIj7WJO0gAjQf",
+    img: night,
+    title: "Night Camps",
+    link: "/categories",
   },
   {
-    videoUrl: "https://www.youtube.com/embed/DsENxeBg_Pk?si=O0CjRdm9TvcEc3d6",
+    img: backPack,
+    title: "Back Pack Trips",
+    link: "/categories",
   },
   {
-    videoUrl: "https://www.youtube.com/embed/n1DWrYiICtU?si=pZP_CPfBxrntLyzE",
+    img: treks,
+    title: "Treks",
+    link: "/categories",
   },
   {
-    videoUrl: "https://www.youtube.com/embed/Wejkj4NKQ9I?si=DbGeAmGX6nW_vKgF",
-  },
-  {
-    videoUrl: "https://www.youtube.com/embed/Lq1e_wD3m_c?si=HxTd6506H4B5dWNu",
-  },
-  {
-    videoUrl: "https://www.youtube.com/embed/yZQMM4EEnM0?si=OALnbYYUa7haaaI4",
-  },
-  {
-    videoUrl: "https://www.youtube.com/embed/X769w5QpijQ?si=9JGtjGg36simg0JQ",
+    img: weekend,
+    title: "Weekend Gateway",
+    link: "/categories",
   },
 ];

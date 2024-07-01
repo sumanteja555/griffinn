@@ -1,14 +1,17 @@
-import Count from "./Count";
-import HomeCover from "./HomeCover";
-import Reviews from "./Reviews";
-import UpcomingTrips from "./UpcomingTrips";
+import Count from "./Count/Count.jsx";
+import HomeCover from "./HomeCover/HomeCover.jsx";
+import Reviews from "./Reviews/Reviews.jsx";
+import UpcomingTrips from "./UpcomingTrips/UpcomingTrips.jsx";
 import tripsData from "../../utils/UpcomingTrips.js";
-import styles from "../Home/Home.module.css";
+import styles from "./UpcomingTrips/UpcomingTrips.module.css";
+import reviewStyles from "./Reviews/Reviews.module.css";
+import Categories from "./Categories/Categories.jsx";
 export default function Home() {
   return (
     <>
       <HomeCover />
       <Count />
+      <Categories />
 
       <section className={styles.tripsContainer}>
         <div className={styles.upcomingTripsContainer}>
@@ -21,7 +24,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className={styles.reviewsMainContainer}>
+      <section className={reviewStyles.reviewsMainContainer}>
         <Reviews />
       </section>
     </>

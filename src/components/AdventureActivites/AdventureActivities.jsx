@@ -7,40 +7,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import adventureActivities from "../../utils/adventureActivities.js";
+import Activity from "./Activity.jsx";
 
 export default function AdventureActivities() {
   return (
     <section className={styles.container}>
       <p id={styles.heading}>Adventure Activities</p>
-      <div className={styles.activityContainer}>
-        <Swiper
-          spaceBetween={30}
-          loop={true}
-          slidesPerView={1}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          lazy={true}
-          modules={[Autoplay]}
-          className={`mySwiper ${styles.mySwiper}`}
-        >
-          {adventureActivities.map(({ title, img }) => {
-            return (
-              <SwiperSlide key={title} className={styles.imgContainer}>
-                <img src={img} alt={title} className={styles.activityImg} />
-                <p className={styles.activityTitle}>{title}</p>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-        <div className={styles.infoContainer}>
-          <p>
-            Timings <br />
-            <span>06:00 Am - 06:00 Pm</span>
-          </p>
-          <button className={styles.btn}>Book Now</button>
-        </div>
+      <div className={styles.activitiesContainer}>
+        {adventureActivities.map((activity) => {
+          return <Activity activity={activity} key={activity.title} />;
+        })}
       </div>
     </section>
   );

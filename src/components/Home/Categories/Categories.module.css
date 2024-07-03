@@ -93,6 +93,7 @@
   }
 }
 
+/* media queries for tablet view */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: row;
@@ -123,5 +124,20 @@
     background-color: white;
     color: black;
     transition: all 0.3s ease-in;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .itemTitle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .itemLink {
+    font-size: xx-large;
+    color: white;
+    background: none;
+    text-align: center;
   }
 }

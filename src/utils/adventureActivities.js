@@ -6,6 +6,9 @@ import shooting from "../assets/adventureActivities/shootingOne.jpg";
 import skyCycling from "../assets/adventureActivities/skyCycling.jpg";
 import wallClimbing from "../assets/adventureActivities/wallClimbing.jpg";
 import zipLining from "../assets/adventureActivities/zipLining.jpg";
+import indoorGames from "../assets/adventureActivities/indoorGames.jpg";
+import cycling from "../assets/adventureActivities/cyclingTwo.jpg";
+
 const adventureActivities = [
   {
     title: "Archery",
@@ -44,7 +47,7 @@ const adventureActivities = [
     price: "250",
   },
   {
-    title: "sky cycling(Telangana's longest line)",
+    title: "sky cycling",
     img: skyCycling,
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sed
           tempora fugit corrupti, at illum vero tenetur accusamus magni
@@ -69,6 +72,24 @@ const adventureActivities = [
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
     price: "350",
+  },
+  {
+    title: "Indoor Games",
+    img: indoorGames,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sed
+          tempora fugit corrupti, at illum vero tenetur accusamus magni
+          deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
+          at harum soluta!`,
+    price: "Complementary",
+  },
+  {
+    title: "cycling",
+    img: cycling,
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, sed
+          tempora fugit corrupti, at illum vero tenetur accusamus magni
+          deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
+          at harum soluta!`,
+    price: "49",
   },
 ];
 

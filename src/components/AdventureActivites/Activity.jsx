@@ -6,9 +6,11 @@ export default function Activity({ activity }) {
   const { title, img, description, price } = activity;
   return (
     <div className={styles.activityContainer}>
-      <img src={img} alt={title} className={styles.img} />
+      <figure className={styles.imgContainer}>
+        <img src={img} alt={title} className={styles.img} />
+      </figure>
       <div className={styles.infoContainer}>
-        <p className={styles.title}>{title}</p>
+        <h2 className={styles.title}>{title}</h2>
         <p className={styles.description}>{description}</p>
         <p className={styles.price}>Rs. {price}/-</p>
         <button className={styles.btn}>Book Now</button>

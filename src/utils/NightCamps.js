@@ -4,6 +4,15 @@ import three from "../assets/nightCamps/nightcampstwo.jpg";
 import four from "../assets/nightCamps/nightcampsthree.jpg";
 import five from "../assets/nightCamps/nightcampsfour.jpg";
 
+import carParking from "../assets/nightCamps/carParking.jpg";
+import petFriendly from "../assets/nightCamps/petImage.png";
+import fineDining from "../assets/nightCamps/fineDining.png";
+import gameZone from "../assets/nightCamps/games.webp";
+import outdoorTheatre from "../assets/nightCamps/outDoorTheatre.jpg";
+import outdoorDiningArea from "../assets/nightCamps/outdoorDiningarea.webp";
+import natureSitouts from "../assets/nightCamps/natureSitout.jpg";
+import snacks from "../assets/nightCamps/snacks.png";
+
 const nightCampImages = [
   {
     img: one,
@@ -50,5 +59,40 @@ export const inclusions = [
   `Open air movie screening`,
   `Cycling`,
   `Indoor and outdoor games`,
+];
+
+export const aminities = [
+  {
+    title: "car parking",
+    img: carParking,
+  },
+  {
+    title: "pet friendly",
+    img: petFriendly,
+  },
+  {
+    title: "fine dining",
+    img: fineDining,
+  },
+  {
+    title: "game zone",
+    img: gameZone,
+  },
+  {
+    title: "outdoor theatre",
+    img: outdoorTheatre,
+  },
+  {
+    title: "outdoor dining area",
+    img: outdoorDiningArea,
+  },
+  {
+    title: "nature sitouts",
+    img: natureSitouts,
+  },
+  {
+    title: "snacks",
+    img: snacks,
+  },
 ];
 export default nightCampImages;

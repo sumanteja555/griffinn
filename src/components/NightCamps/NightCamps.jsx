@@ -11,7 +11,7 @@ import styles from "./NightCamps.module.css";
 import nightCampImages from "../../utils/NightCamps.js";
 import ItineraryTimeline from "./ItineraryTimeline.jsx";
 
-import { inclusions } from "../../utils/NightCamps.js";
+import { inclusions, aminities } from "../../utils/NightCamps.js";
 
 export default function NightCamps() {
   return (
@@ -55,6 +55,21 @@ export default function NightCamps() {
       </div>
       <div className={styles.btnContainer}>
         <button className={styles.btn}>Book Now</button>
+      </div>
+      <div className={styles.aminityContainer}>
+        <p className={styles.title}>AMIITIES</p>
+        <div className={styles.logosContainer}>
+          {aminities.map(({ title, img }) => {
+            return (
+              <div className={styles.aminityContainer} key={title}>
+                <figure className={styles.logoWrapper}>
+                  <img src={img} alt={title} className={styles.aminityLogo} />
+                </figure>
+                <p className={styles.aminityTitle}>{title}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

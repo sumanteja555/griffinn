@@ -9,18 +9,20 @@ import Gallery from "./components/Gallery/Gallery.jsx";
 import ContactUs from "./components/ContactUs/ContactUs";
 import SubmitForm from "./components/SubmitForm/SubmitForm.jsx";
 import AdventureActivities from "./components/AdventureActivites/AdventureActivities.jsx";
+import NightCamps from "./components/NightCamps/NightCamps.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootLayout />,
-    errorElement: <Error />,
+    // errorElement: <Error />,
     children: [
       { index: true, element: <Home /> },
       { path: "/aboutus", element: <AboutUs /> },
       { path: "/gallery", element: <Gallery /> },
       { path: "/contactus", element: <ContactUs /> },
       { path: "/adventureactivities", element: <AdventureActivities /> },
+      { path: "/nightcamps", element: <NightCamps /> },
       { path: "/submit", element: <SubmitForm /> },
     ],
   },

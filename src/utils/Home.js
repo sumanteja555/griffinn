@@ -62,7 +62,7 @@ export const categories = [
   {
     img: night,
     title: "Night Camps",
-    link: "/categories",
+    link: "/nightcamps",
   },
   {
     img: backPack,

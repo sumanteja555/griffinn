@@ -17,7 +17,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "99",
+    price: "Rs: 99/-",
   },
   {
     title: "Kayaking",
@@ -26,7 +26,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "200",
+    price: "Rs: 200/-",
   },
   {
     title: "rapelling",
@@ -35,7 +35,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "250",
+    price: "Rs: 250/-",
   },
   {
     title: "rifle shooting",
@@ -44,7 +44,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "250",
+    price: "Rs: 250/-",
   },
   {
     title: "sky cycling",
@@ -53,7 +53,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "350",
+    price: "Rs: 350/-",
   },
   {
     title: "wall climbing",
@@ -62,7 +62,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "250",
+    price: "Rs: 250/-",
   },
   {
     title: "zip lining",
@@ -71,7 +71,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "350",
+    price: "Rs: 350/-",
   },
   {
     title: "Indoor Games",
@@ -89,7 +89,7 @@ const adventureActivities = [
           tempora fugit corrupti, at illum vero tenetur accusamus magni
           deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
           at harum soluta!`,
-    price: "49",
+    price: "RS: 49/-",
   },
 ];
 

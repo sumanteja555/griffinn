@@ -1,7 +1,7 @@
 import adventure from "../assets/home/adventure.jpg";
 import night from "../assets/home/night.jpg";
 import backPack from "../assets/home/backpack.jpg";
-import treks from "../assets/home/treks.jpg";
+import mountainTreks from "../assets/home/treks.jpg";
 import weekend from "../assets/home/weekend.jpg";
 
 export const reviews = [
@@ -70,9 +70,9 @@ export const categories = [
     link: "/categories",
   },
   {
-    img: treks,
-    title: "Treks",
-    link: "/categories",
+    img: mountainTreks,
+    title: "Mountain Treks",
+    link: "/mountaintreks",
   },
   {
     img: weekend,

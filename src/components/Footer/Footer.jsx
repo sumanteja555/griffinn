@@ -64,56 +64,58 @@ export default function Footer() {
           <div>
             <div>
               <table>
-                <tr>
-                  <td>
-                    <div>
-                      <strong>Email</strong>
-                    </div>
-                  </td>
-                  <td>
-                    <p>griffin@gmail.com</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div>
-                      <strong>Manvi (Ops)</strong>
-                    </div>
-                  </td>
-                  <td>
-                    <p>+91 91033 67397</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div>
-                      <strong>Pulkit (Ops)</strong>
-                    </div>
-                  </td>
-                  <td>
-                    <p>+91 80767 43337</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div>
-                      <strong>Kajal</strong>
-                    </div>
-                  </td>
-                  <td>
-                    <p>+91 93548 67970</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <div>
-                      <strong>Anany</strong>
-                    </div>
-                  </td>
-                  <td>
-                    <p>+91 93548 67970</p>
-                  </td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div>
+                        <strong>Email</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <p>griffin@gmail.com</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <strong>Manvi (Ops)</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <p>+91 91033 67397</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <strong>Pulkit (Ops)</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <p>+91 80767 43337</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <strong>Kajal</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <p>+91 93548 67970</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div>
+                        <strong>Anany</strong>
+                      </div>
+                    </td>
+                    <td>
+                      <p>+91 93548 67970</p>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </div>
           </div>

@@ -10,9 +10,9 @@ export default function Founder() {
 
         {founderInfo.map(({ title, description }) => {
           return (
-            <div className={styles.founderInfoContainer}>
-              {<p className={styles.founderInfoHeading}>{title}</p>}
-              {<p className={styles.founderInfoText}>{description}</p>}
+            <div className={styles.founderInfoContainer} key={title}>
+              <p className={styles.founderInfoHeading}>{title}</p>
+              <p className={styles.founderInfoText}>{description}</p>
             </div>
           );
         })}

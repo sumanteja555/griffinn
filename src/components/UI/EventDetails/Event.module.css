@@ -49,9 +49,12 @@
 }
 
 .itineraryUl {
-  text-align: center;
+  /* text-align: center; */
+  list-style-type: "→";
 }
-
+.itineraryli {
+  padding-left: 0.5rem;
+}
 .endText {
   text-align: center;
   text-transform: capitalize;

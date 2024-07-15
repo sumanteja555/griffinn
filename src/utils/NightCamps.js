@@ -5,6 +5,8 @@ import four from "../assets/nightCamps/nightcampsthree.jpg";
 import five from "../assets/nightCamps/nightcampsfour.jpg";
 
 const nightCamps = {
+  title: "Night Camping",
+  price: "1700",
   images: [
     {
       img: one,

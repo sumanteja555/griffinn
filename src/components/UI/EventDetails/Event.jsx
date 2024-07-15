@@ -7,7 +7,6 @@ import { Autoplay } from "swiper/modules";
 import styles from "./Event.module.css";
 
 // component imports
-import Aminity from "./Aminitiy";
 import Itinerary from "./Itinerary.jsx";
 
 // data imports
@@ -101,18 +100,6 @@ export default function Event({ event }) {
           </div>
         );
       })}
-
-      {/* aminities rendering */}
-      {aminities ? (
-        <div className={styles.aminityContainer}>
-          <p className={styles.title}>AMIITIES</p>
-          <div className={styles.logosContainer}>
-            {aminities.map((aminity) => (
-              <Aminity aminity={aminity} key={aminity.title} />
-            ))}
-          </div>
-        </div>
-      ) : undefined}
     </section>
   );
 }

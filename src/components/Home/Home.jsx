@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <HomeCover />
-      <Count />
       <Categories />
+      <Count />
 
-      <section className={styles.tripsContainer}>
+      {/* <section className={styles.tripsContainer}>
         <div className={styles.upcomingTripsContainer}>
           {tripsData.map((trip) => (
             <UpcomingTrips
@@ -23,7 +23,7 @@ export default function Home() {
             />
           ))}
         </div>
-      </section>
+      </section> */}
       <section className={reviewStyles.reviewsMainContainer}>
         <Reviews />
       </section>

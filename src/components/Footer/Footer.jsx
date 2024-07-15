@@ -5,7 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/logo.png";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
@@ -22,11 +22,9 @@ export default function Footer() {
         <div>
           <div className={styles.companyname}>
             <figure className={styles.logoContainer}>
-              <img src={logo} alt="companyImage"></img>
+              <img src={logo} alt="companyImage" />
             </figure>
-            <h2>Griff INN Adventures</h2>
           </div>
-          <p>Grifinn Travels Pvt. Ltd.</p>
           <p>
             Swamy Narayana Nagar, Gurram Guda, Injapur, Hyderabad, Telangana,
             India 500070

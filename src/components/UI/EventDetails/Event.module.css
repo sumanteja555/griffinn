@@ -143,43 +143,11 @@
   margin-bottom: 2rem;
 }
 
-/* aminities styles */
-.logosContainer {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  max-width: 100vw;
-  padding: 0 2rem;
-}
-.aminityContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.logoWrapper {
-  flex: 8;
-}
-.aminityTitle {
-  flex: 2;
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-.aminityLogo {
-  max-width: 100%;
-  object-fit: contain;
-}
-
 @media screen and (max-width: 768px) {
   /* images slides styles */
   .mySwiper {
     width: 100%;
     aspect-ratio: 1/0.7;
-  }
-
-  /* aminity styles */
-  .logosContainer {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -187,10 +155,5 @@
   /* button stylings */
   .btn {
     margin-top: 3rem;
-  }
-
-  /* aminity styles */
-  .logosContainer {
-    grid-template-columns: repeat(2, 1fr);
   }
 }

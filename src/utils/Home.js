@@ -64,19 +64,19 @@ export const categories = [
     title: "Night Camps",
     link: "/nightcamps",
   },
-  {
-    img: backPack,
-    title: "Back Pack Trips",
-    link: "/categories",
-  },
+  // {
+  //   img: backPack,
+  //   title: "Back Pack Trips",
+  //   link: "/categories",
+  // },
   {
     img: mountainTreks,
     title: "Mountain Treks",
     link: "/mountaintreks",
   },
-  {
-    img: weekend,
-    title: "Weekend Gateway",
-    link: "/categories",
-  },
+  // {
+  //   img: weekend,
+  //   title: "Weekend Gateway",
+  //   link: "/categories",
+  // },
 ];

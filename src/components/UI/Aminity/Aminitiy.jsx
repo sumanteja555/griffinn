@@ -1,4 +1,4 @@
-import styles from "./Event.module.css";
+import styles from "./Aminity.module.css";
 
 export default function Aminity({ aminity }) {
   const { img, title } = aminity;

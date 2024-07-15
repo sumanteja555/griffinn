@@ -33,72 +33,29 @@
   text-decoration: underline;
   text-underline-offset: 0.5rem;
 }
-/* itinerary styles */
-.designSection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin-bottom: 5rem;
-}
 
-.timeline {
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-.heading {
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.3ch;
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
-}
-
+/* general title styles */
 .title {
-  text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
   font-size: x-large;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.timelineContent {
-  padding: 20px;
-  background: #1f1f1f;
-  -webkit-box-shadow: 5px 5px 8px #1a1a1a, -5px -5px 10px #242424;
-  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
-  border-radius: 5px;
-  color: white;
-  padding: 1.75rem;
-  transition: 0.4s ease;
-  overflow-wrap: break-word !important;
-  margin: 1rem;
-  margin-bottom: 20px;
-  border-radius: 6px;
-}
-
-.timelineComponent {
-  margin: 0px 20px 20px 20px;
-}
-
-.ul {
-  gap: 1rem;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.ul > li {
-  text-align: justify;
-  letter-spacing: 0.2ch;
-}
-
-.timelineComponent > p {
+  text-transform: capitalize;
   text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* itinerary styles */
+
+.day {
+  text-transform: capitalize;
+}
+
+.itineraryUl {
+  text-align: center;
+}
+
+.endText {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 /* info container styles */
@@ -210,44 +167,11 @@
   object-fit: contain;
 }
 
-@media screen and (min-width: 768px) {
-  /* itinerary styles */
-  .timeline {
-    display: grid;
-    grid-template-columns: 1fr 3px 1fr;
-  }
-  .timelineMiddle {
-    position: relative;
-    background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
-    width: 3px;
-    height: 100%;
-  }
-  .mainMiddle {
-    opacity: 0;
-  }
-  .timelineCircle {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-}
-
 @media screen and (max-width: 768px) {
   /* images slides styles */
   .mySwiper {
     width: 100%;
     aspect-ratio: 1/0.7;
-  }
-
-  /* itinerary styles */
-  .designSection {
-    margin: 0;
   }
 
   /* aminity styles */

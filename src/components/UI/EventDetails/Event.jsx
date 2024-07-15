@@ -8,7 +8,7 @@ import styles from "./Event.module.css";
 
 // component imports
 import Aminity from "./Aminitiy";
-import Timeline from "./Timeline";
+import Itinerary from "./Itinerary.jsx";
 
 // data imports
 import generalItems, { aminities } from "../../../utils/general.js";
@@ -53,8 +53,8 @@ export default function Event({ event }) {
       </Swiper>
 
       <p className={styles.eventName}>{title}</p>
-
-      {/* <Timeline itineary={itinerary} /> */}
+      <p className={styles.title}>Itinerary</p>
+      <Itinerary data={itinerary} />
 
       {/* inclusions and exclusions rendering */}
       <div className={styles.infoContainer}>

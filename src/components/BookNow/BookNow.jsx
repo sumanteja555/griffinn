@@ -4,6 +4,7 @@ import styles from "./BookNow.module.css";
 
 // redux imports
 import { useSelector } from "react-redux";
+import Input from "./Input";
 
 export default function BookNow() {
   const eventName = useSelector((state) => state.eventName);
@@ -20,51 +21,29 @@ export default function BookNow() {
     <section className={styles.container}>
       <p className={styles.heading}>Book Now</p>
       <form action="" className={styles.form}>
-        {/* input name container */}
-        <div className={styles.inputContainer}>
-          <input
-            type="text"
-            id="customerName"
-            name="customerName"
-            className={styles.input}
-            placeholder="Enter your full name"
-            required
-          />
-          <label htmlFor="customerName" className={styles.label}>
-            Enter your full name:
-          </label>
-        </div>
+        {/* name input */}
+        <Input
+          type="text"
+          id="customerName"
+          placeholder="Enter your full name"
+          labelText="Enter your full name:"
+        />
 
         {/* input number container */}
-        <div className={styles.inputContainer}>
-          <input
-            type="number"
-            id="mobileNumber"
-            name="mobileNumber"
-            inputMode="numeric"
-            className={styles.input}
-            placeholder="Enter your mobile number"
-            required
-          />
-          <label htmlFor="mobileNumber" className={styles.label}>
-            Mobile Number:
-          </label>
-        </div>
+        <Input
+          type="number"
+          id="mobileNumber"
+          placeholder="Enter your mobile number"
+          labelText="Mobile Number:"
+        />
+
         {/* input email id container */}
-        <div className={styles.inputContainer}>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            inputMode="email"
-            className={styles.input}
-            required
-            placeholder="Enter your mail id"
-          />
-          <label htmlFor="email" className={styles.label}>
-            Enter your Email Id:
-          </label>
-        </div>
+        <Input
+          type="email"
+          id="email"
+          placeholder="Enter your email id"
+          labelText="Enter your Email Id:"
+        />
 
         {/* total number of persons container */}
         <div className={styles.inputContainer}>

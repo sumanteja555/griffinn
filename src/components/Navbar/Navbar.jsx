@@ -47,6 +47,13 @@ export default function Navbar() {
           >
             Contact Us
           </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? styles.active : styles.li)}
+            to="/volunteer"
+            onClick={handleClick}
+          >
+            Volunteer
+          </NavLink>
         </div>
         <h1 className={styles.logo}>GRIFF INN</h1>
       </div>

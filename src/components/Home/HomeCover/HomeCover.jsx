@@ -67,9 +67,6 @@ export default function HomeCover() {
           );
         })}
       </Swiper>
-      <div className={styles.companyInfoContainer}>
-        <img src={logo} alt="" className={styles.companyLogo} />
-      </div>
     </div>
   );
 }

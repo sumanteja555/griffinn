@@ -11,7 +11,6 @@ export default function Home() {
     <>
       <HomeCover />
       <Categories />
-      <Count />
 
       {/* <section className={styles.tripsContainer}>
         <div className={styles.upcomingTripsContainer}>
@@ -27,6 +26,8 @@ export default function Home() {
       <section className={reviewStyles.reviewsMainContainer}>
         <Reviews />
       </section>
+
+      <Count />
     </>
   );
 }

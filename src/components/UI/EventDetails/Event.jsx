@@ -10,7 +10,7 @@ import styles from "./Event.module.css";
 import Itinerary from "./Itinerary.jsx";
 
 // data imports
-import generalItems, { aminities } from "../../../utils/general.js";
+import generalItems from "../../../utils/general.js";
 
 // redux imports
 import { cartActions } from "../../../store/store.js";

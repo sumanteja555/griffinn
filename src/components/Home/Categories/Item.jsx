@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 export default function Item({ title, img, link }) {
   return (
     <div className={styles.itemContainer}>
-      <img src={img} alt={title} className={styles.itemImg} />
-      <div className={styles.overlay}></div>
+      <figure className={styles.imgContainer}>
+        <img src={img} alt={title} className={styles.itemImg} />
+      </figure>
       <div className={styles.itemContent}>
-        <p className={styles.itemTitle}>Click Below To Know</p>
+        <p className={styles.itemTitle}>{title}</p>
         <Link to={link} className={styles.itemLink}>
-          {title}
+          Get Details
         </Link>
       </div>
     </div>

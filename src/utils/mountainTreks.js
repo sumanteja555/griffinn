@@ -23,6 +23,13 @@ import dudhsagarThree from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsaga
 import dudhsagarFour from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls4.webp";
 import dudhsagarFive from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls5.jpg";
 
+// harihar fort treks images
+import hariharOne from "../assets/mountainTreks/hariharfort/harihar1.jpg";
+import hariharTwo from "../assets/mountainTreks/hariharfort/harihar2.jpg";
+import hariharThree from "../assets/mountainTreks/hariharfort/harihar3.jpg";
+import hariharFour from "../assets/mountainTreks/hariharfort/harihar4.jpg";
+import hariharFive from "../assets/mountainTreks/hariharfort/harihar5.webp";
+
 // harishchandragad trek images
 import harishchandragadOne from "../assets/mountainTreks/hairshchandragad/harishchandragad1.webp";
 import harishchandragadTwo from "../assets/mountainTreks/hairshchandragad/harishchandragad2.webp";
@@ -80,6 +87,7 @@ const mountainTreks = [
                 tempora fugit corrupti, at illum vero tenetur accusamus magni
                 deleniti, nobis necessitatibus. Assumenda quo corrupti animi fugiat,
                 at harum soluta!`,
+        eventId: "hariharfort",
         book: false,
       },
       {
@@ -273,6 +281,74 @@ export const dudhsagarWaterfalls = {
     {
       day: "Day Four",
       details: [` 09:00 PM:Reach Hyderabad`],
+      text: "End of Day Four",
+    },
+  ],
+};
+
+export const hariharfort = {
+  eventId: "hariharfort",
+  title: "Harihar Fort, Trimbakeshwar Temple & Brahmagiri Hill Godavari Origin",
+  price: "4299",
+  images: [
+    {
+      img: hariharOne,
+      title: "harihar fort one",
+    },
+    {
+      img: hariharTwo,
+      title: "harihar fort Two",
+    },
+    {
+      img: hariharThree,
+      title: "harihar fort three",
+    },
+    {
+      img: hariharFour,
+      title: "harihar fort four",
+    },
+    {
+      img: hariharFive,
+      title: "harihar fort five",
+    },
+  ],
+  inclusions: [
+    `Transportation: Hyderabad - Hyderabad by sleeper coach train`,
+    `Local Transportation`,
+    `Accommodation: 1 Night stay in camping tents`,
+    `Food: 1 Dinner & Breakfast`,
+    `Entries & Permits`,
+    `Experienced Trek Lead and local guide`,
+    `First-Aid Assistance`,
+  ],
+  itinerary: [
+    {
+      day: "Day One",
+      details: [`Catch the train from Secunderabad at 1:00 PM or 06:00 PM`],
+      text: "End of Day One",
+    },
+    {
+      day: "Day Two",
+      details: [
+        `Reach Manmad by 07:00 AM.`,
+        `Get into a hired vehicle and Reach Trimbakeshwar`,
+        `Start trek to Brahmagiri Hill Godavari River Origin Point`,
+        `Night Stay at Harihar Fort Base`,
+      ],
+      text: "End of Day Two",
+    },
+    {
+      day: "Day Three",
+      details: [
+        `Wakeup call by 04:30 AM`,
+        `Start trek to Harihar Fort`,
+        `Afternoon reach back to stay and start to Manmad railway station`,
+      ],
+      text: "End of Day Three",
+    },
+    {
+      day: "Day Four",
+      details: [`Reach Hyderabad in the morning with amazing memories*:*`],
       text: "End of Day Four",
     },
   ],

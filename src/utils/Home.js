@@ -74,9 +74,9 @@ export const categories = [
     title: "Mountain Treks",
     link: "/mountaintreks",
   },
-  // {
-  //   img: weekend,
-  //   title: "Weekend Gateway",
-  //   link: "/categories",
-  // },
+  {
+    img: weekend,
+    title: "Weekend Gateway",
+    link: "/weekendgateway",
+  },
 ];

@@ -34,10 +34,7 @@ export default function GridItem({ item }) {
             Book Now
           </button>
         ) : (
-          <Link
-            to={`/mountaintreks/${item.eventId}`}
-            className={styles.moreInfo}
-          >
+          <Link to={item.eventId} className={styles.moreInfo}>
             More Info
           </Link>
         )}

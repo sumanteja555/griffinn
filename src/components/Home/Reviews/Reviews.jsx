@@ -21,7 +21,6 @@ export default function Reviews() {
       slidesPerView={1}
       loop={true}
       navigation={true}
-      centeredSlides={true}
       autoplay={{
         delay: 2000,
         disableOnInteraction: true,
@@ -33,7 +32,7 @@ export default function Reviews() {
           spaceBetween: 40,
         },
         1024: {
-          slidesPerView: 4,
+          slidesPerView: 3,
           spaceBetween: 50,
         },
       }}

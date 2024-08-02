@@ -31,7 +31,7 @@ export default function Navbar() {
             to="/aboutus"
             onClick={handleClick}
           >
-            Explore Griff Inn
+            About Us
           </NavLink>
           <NavLink
             className={({ isActive }) => (isActive ? styles.active : styles.li)}

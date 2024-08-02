@@ -1,34 +1,76 @@
-import hotAir from "../assets/hotair.png";
-import camera from "../assets/camara.jpg";
-import sea from "../assets/sea.jpg";
-import cable from "../assets/cable.png";
-import laguage from "../assets/carrier.jpg";
-import tent from "../assets/tent.jpg";
-const footerIcons = [
-  {
-    title: "image 1",
-    src: hotAir,
-  },
-  {
-    title: "image 2",
-    src: camera,
-  },
-  {
-    title: "image 3",
-    src: sea,
-  },
-  {
-    title: "image 4",
-    src: cable,
-  },
-  {
-    title: "image 5",
-    src: laguage,
-  },
-  {
-    title: "image 6",
-    src: tent,
-  },
-];
+const webLinks = {
+  title: "Quick Links",
+  links: [
+    {
+      address: "/",
+      name: "home",
+    },
+    {
+      address: "/aboutus",
+      name: "about us",
+    },
+    {
+      address: "/adventureactivities",
+      name: "Adventurue Activites",
+    },
+    {
+      address: "/nightcamps",
+      name: "Night Camps",
+    },
+    {
+      address: "/mountaintreks",
+      name: "Mountain Treks",
+    },
+    {
+      address: "/gallery",
+      name: "gallery",
+    },
+    {
+      address: "/volunteer",
+      name: "Volunteer",
+    },
+    {
+      address: "/policies",
+      name: "policies",
+    },
+  ],
+};
 
-export default footerIcons;
+export const socialLinks = {
+  title: "Get in Touch",
+  links: [
+    {
+      address: "https://www.google.com",
+      name: "Instagram",
+    },
+    {
+      address: "/aboutus",
+      name: "Whats app",
+    },
+    {
+      address: "/adventureactivities",
+      name: "Mail",
+    },
+    {
+      address: "/nightcamps",
+      name: "Night Camps",
+    },
+    {
+      address: "/mountaintreks",
+      name: "Mountain Treks",
+    },
+    {
+      address: "/gallery",
+      name: "gallery",
+    },
+    {
+      address: "/volunteer",
+      name: "Volunteer",
+    },
+    {
+      address: "/policies",
+      name: "policies",
+    },
+  ],
+};
+export default webLinks;

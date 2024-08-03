@@ -8,9 +8,9 @@ import zipLining from "../assets/adventureActivities/zipLining.jpg";
 import indoorGames from "../assets/adventureActivities/indoorGames.jpg";
 import cycling from "../assets/adventureActivities/cyclingTwo.jpg";
 
-const adventureActivities = [
+const adventurePark = [
   {
-    heading: "adventure activities",
+    heading: "adventure Park",
     gridData: [
       {
         title: "Archery",
@@ -106,4 +106,4 @@ const adventureActivities = [
   },
 ];
 
-export default adventureActivities;
+export default adventurePark;

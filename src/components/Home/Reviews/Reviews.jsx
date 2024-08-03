@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 export default function Reviews() {
   return (
@@ -25,7 +25,6 @@ export default function Reviews() {
         delay: 2000,
         disableOnInteraction: true,
       }}
-      pagination={{ clickable: true }}
       breakpoints={{
         768: {
           slidesPerView: 3,
@@ -36,7 +35,7 @@ export default function Reviews() {
           spaceBetween: 50,
         },
       }}
-      modules={[Navigation, Pagination, Autoplay]}
+      modules={[Navigation, Autoplay]}
       className={`mySwiper ${styles.swiper}`}
     >
       {reviews.map((review) => {

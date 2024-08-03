@@ -1,6 +1,6 @@
 .footer {
   max-width: 100%;
-  background-color: var(--secondaryColor);
+  background: linear-gradient(var(--primaryColor), var(--secondaryColor));
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;

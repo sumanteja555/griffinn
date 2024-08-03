@@ -4,7 +4,7 @@ import Event from "../components/UI/EventDetails/Event.jsx";
 
 export default function MountainTreksEventPage() {
   const params = useParams();
-  const param = params.eventId;
+  const eventParam = params.eventId;
 
   const [data, setData] = useState(null);
 
@@ -14,7 +14,7 @@ export default function MountainTreksEventPage() {
         // Dynamically import the data module
         const module = await import(`../utils/mountainTreks.js`);
         // Access the specific variable from the module
-        setData(module[param]);
+        setData(module[eventParam]);
       } catch (error) {
         console.error("Error loading data:", error);
         setData(null);
@@ -22,7 +22,7 @@ export default function MountainTreksEventPage() {
     };
 
     fetchData();
-  }, [param]);
+  }, [eventParam]);
 
   return data ? <Event event={data} /> : <h1>no data found</h1>;
 }

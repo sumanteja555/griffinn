@@ -11,9 +11,7 @@ const GallerPage = lazy(() => import("./components/Gallery/Gallery.jsx")); //gal
 const ContactusPage = lazy(() =>
   import("./components/ContactUs/ContactUs.jsx")
 ); //contact us page import
-const AdventureactivitiesPage = lazy(() =>
-  import("./pages/AdventureActivities.jsx")
-); //adventure activities page import
+const AdventureparkPage = lazy(() => import("./pages/AdventurePark.jsx")); //adventure activities page import
 const NightscampsPage = lazy(() => import("./pages/NightCamps.jsx")); //nightcamps page import
 const MountaintreksPage = lazy(() => import("./pages/MountainTreks.jsx")); //mountain treks imports
 const MountaintreksEventPage = lazy(() =>
@@ -68,10 +66,10 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/adventureactivities",
+        path: "/adventurepark",
         element: (
           <Suspense>
-            <AdventureactivitiesPage />
+            <AdventureparkPage />
           </Suspense>
         ),
       },

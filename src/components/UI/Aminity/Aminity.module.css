@@ -12,6 +12,7 @@
   align-items: center;
 }
 .logoWrapper {
+  height: 100%;
   flex: 8;
 }
 .aminityTitle {
@@ -22,6 +23,7 @@
 }
 .aminityLogo {
   max-width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 .title {

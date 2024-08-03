@@ -167,3 +167,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* only for adventure park */
+.parkInfo {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: justify;
+  letter-spacing: 0.1ch;
+  line-height: 2;
+}

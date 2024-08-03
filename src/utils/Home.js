@@ -56,8 +56,8 @@ export const reviews = [
 export const categories = [
   {
     img: adventure,
-    title: "Adventure Activities",
-    link: "/adventureactivities",
+    title: "Adventure Park",
+    link: "/adventurepark",
   },
   {
     img: night,

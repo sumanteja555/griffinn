@@ -35,18 +35,10 @@ function NavbarItem() {
             <NavLink className="nav-link" role="button" tabIndex="0" to="/">
               Home
             </NavLink>
-            <NavLink
-              className="nav-link"
-              role="button"
-              tabIndex="0"
-              to="/aboutus"
-            >
-              About Us
-            </NavLink>
             <NavDropdown title="Activities" id="basic-nav-dropdown">
               <NavDropdown.Item>
-                <NavLink to="/adventureactivities" className="dropdown-item">
-                  Adventure Activities
+                <NavLink to="/adventurepark" className="dropdown-item">
+                  Adventure Park
                 </NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item>
@@ -72,6 +64,14 @@ function NavbarItem() {
               to="/gallery"
             >
               Gallery
+            </NavLink>
+            <NavLink
+              className="nav-link"
+              role="button"
+              tabIndex="0"
+              to="/aboutus"
+            >
+              About Us
             </NavLink>
             <NavLink
               className="nav-link"

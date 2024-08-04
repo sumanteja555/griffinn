@@ -84,3 +84,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .teamBody {
+    grid-template-columns: 1fr;
+  }
+  .teamImg {
+    grid-column: 1;
+  }
+  .teamInfoDiv {
+    grid-column: 1;
+  }
+}

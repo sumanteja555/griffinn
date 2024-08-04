@@ -8,16 +8,28 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/logo.png";
 
 import styles from "./NavbarItem.module.css";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function NavbarItem() {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setExpanded(!expanded);
+  };
+
+  const handleSelect = () => {
+    setExpanded(false);
+  };
   return (
     <Navbar
+      collapseOnSelect
       expand="lg"
       className={styles.navbar}
       sticky="top"
       variant="light"
       data-bs-theme="light"
+      expanded={expanded}
     >
       <Container>
         <Navbar.Brand to="/">
@@ -29,29 +41,38 @@ function NavbarItem() {
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={handleToggle}
+        />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <NavLink className="nav-link" role="button" tabIndex="0" to="/">
+            <NavLink
+              className="nav-link"
+              role="button"
+              tabIndex="0"
+              to="/"
+              onClick={handleSelect}
+            >
               Home
             </NavLink>
             <NavDropdown title="Activities" id="basic-nav-dropdown">
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={handleSelect}>
                 <NavLink to="/adventurepark" className="dropdown-item">
                   Adventure Park
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={handleSelect}>
                 <NavLink to="/nightcamps" className="dropdown-item">
                   Night Camps
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={handleSelect}>
                 <NavLink to="/mountaintreks" className="dropdown-item">
                   Mountain Treks
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item>
+              <NavDropdown.Item onClick={handleSelect}>
                 <NavLink to="/weekendgateway" className="dropdown-item">
                   Weekend Gateway
                 </NavLink>
@@ -62,6 +83,7 @@ function NavbarItem() {
               role="button"
               tabIndex="0"
               to="/gallery"
+              onClick={handleSelect}
             >
               Gallery
             </NavLink>
@@ -70,6 +92,7 @@ function NavbarItem() {
               role="button"
               tabIndex="0"
               to="/aboutus"
+              onClick={handleSelect}
             >
               About Us
             </NavLink>
@@ -78,6 +101,7 @@ function NavbarItem() {
               role="button"
               tabIndex="0"
               to="/volunteer"
+              onClick={handleSelect}
             >
               Volunteer
             </NavLink>

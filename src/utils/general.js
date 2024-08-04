@@ -25,11 +25,11 @@ export const aminities = [
     img: gameZone,
   },
   {
-    title: "outdoor theatre",
+    title: "theatre",
     img: outdoorTheatre,
   },
   {
-    title: "outdoor dining area",
+    title: "dining area",
     img: outdoorDiningArea,
   },
   {

@@ -8,7 +8,7 @@ export default function Count() {
         <Increment toNumber={150} styles={styles.increment}>
           +
         </Increment>
-        <p className={styles.countText}>Adventure Workshops</p>
+        <p className={styles.countText}>Workshops</p>
       </div>
       <div className={styles.countContainer}>
         <Increment toNumber={190} styles={styles.increment}>

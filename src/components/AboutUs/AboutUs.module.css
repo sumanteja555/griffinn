@@ -49,6 +49,24 @@
   line-height: 1.7rem;
 }
 
+/* team styles */
+.teamBody {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.teamImg {
+  grid-column: 1/2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.teamInfoDiv {
+  grid-column: 2/6;
+}
+
 /* founder Info Styles */
 .founderInfoHeading {
   font-size: clamp(1rem, 1.5rem, 2.5rem);

@@ -35,12 +35,7 @@ const volunteer = [
     required: false,
     label: "Currently Residing at",
   },
-  {
-    name: "meetupId",
-    type: "text",
-    required: false,
-    label: "Enter your meetup id or meet up profile url",
-  },
+
   {
     name: "socialProfile",
     type: "text",
@@ -48,10 +43,10 @@ const volunteer = [
     label: "Enter your LinkedIn profile",
   },
   {
-    name: "fbProfile",
+    name: "igProfile",
     type: "text",
     required: false,
-    label: "Enter your facebook profile id",
+    label: "Enter your instagram profile id",
   },
   {
     name: "experience",

@@ -1,7 +1,8 @@
 import styles from "./Footer.module.css";
-import LinksDiv from "./LinksDiv";
+import ImpLinks from "./ImpLinks";
 
 import webLinks, { socialLinks } from "../../utils/footer";
+import SocialLinks from "./SocialLinks";
 
 export default function Footer() {
   return (
@@ -16,8 +17,8 @@ export default function Footer() {
           Life changing travel experiences curated by us.
         </p>
       </div>
-      <LinksDiv {...webLinks} />
-      <LinksDiv {...socialLinks} />
+      <ImpLinks {...webLinks} />
+      <SocialLinks />
     </footer>
   );
 }

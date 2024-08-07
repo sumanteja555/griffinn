@@ -1,11 +1,11 @@
-import carParking from "../assets/nightCamps/carParking.jpg";
-import petFriendly from "../assets/nightCamps/petImage.png";
-import fineDining from "../assets/nightCamps/fineDining.png";
+import carParking from "../assets/nightCamps/carParking.webp";
+import petFriendly from "../assets/nightCamps/petImage.webp";
+import fineDining from "../assets/nightCamps/fineDining.webp";
 import gameZone from "../assets/nightCamps/games.webp";
-import outdoorTheatre from "../assets/nightCamps/outDoorTheatre.jpg";
+import outdoorTheatre from "../assets/nightCamps/outDoorTheatre.webp";
 import outdoorDiningArea from "../assets/nightCamps/outdoorDiningarea.webp";
-import natureSitouts from "../assets/nightCamps/natureSitout.jpg";
-import snacks from "../assets/nightCamps/snacks.png";
+import natureSitouts from "../assets/nightCamps/natureSitout.webp";
+import snacks from "../assets/nightCamps/snacks.webp";
 
 export const aminities = [
   {

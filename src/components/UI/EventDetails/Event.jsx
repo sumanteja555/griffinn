@@ -44,7 +44,7 @@ export default function Event({ event }) {
           return (
             <SwiperSlide key={title} className={styles.swiperSlide}>
               <figure className={styles.imgContainer}>
-                <img src={img} alt={title} />
+                <img src={img} alt={title} loading="lazy" />
               </figure>
             </SwiperSlide>
           );

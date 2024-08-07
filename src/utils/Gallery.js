@@ -1,13 +1,13 @@
-import image1 from "../assets/gallery/1.jpeg";
-import image2 from "../assets/gallery/2.jpeg";
-import image3 from "../assets/gallery/3.jpeg";
-import image4 from "../assets/gallery/4.jpeg";
-import image5 from "../assets/gallery/5.jpeg";
-import image6 from "../assets/gallery/6.jpeg";
-import image7 from "../assets/gallery/7.jpeg";
-import image8 from "../assets/gallery/8.jpeg";
-import image9 from "../assets/gallery/9.jpeg";
-import image10 from "../assets/gallery/10.jpeg";
+import image1 from "../assets/gallery/1.webp";
+import image2 from "../assets/gallery/2.webp";
+import image3 from "../assets/gallery/3.webp";
+import image4 from "../assets/gallery/4.webp";
+import image5 from "../assets/gallery/5.webp";
+import image6 from "../assets/gallery/6.webp";
+import image7 from "../assets/gallery/7.webp";
+import image8 from "../assets/gallery/8.webp";
+import image9 from "../assets/gallery/9.webp";
+import image10 from "../assets/gallery/10.webp";
 
 const photos = [
   {

@@ -1,12 +1,12 @@
-import archery from "../assets/adventureActivities/archery.jpg";
-import kayaking from "../assets/adventureActivities/kayakingOne.jpg";
-import rapelling from "../assets/adventureActivities/rapelling.jpg";
-import shooting from "../assets/adventureActivities/shootingOne.jpg";
-import skyCycling from "../assets/adventureActivities/skyCycling.jpg";
-import wallClimbing from "../assets/adventureActivities/wallClimbing.jpg";
-import zipLining from "../assets/adventureActivities/zipLining.jpg";
-import indoorGames from "../assets/adventureActivities/indoorGames.jpg";
-import cycling from "../assets/adventureActivities/cyclingTwo.jpg";
+import archery from "../assets/adventureActivities/archery.webp";
+import kayaking from "../assets/adventureActivities/kayaking.webp";
+import rapelling from "../assets/adventureActivities/rapelling.webp";
+import shooting from "../assets/adventureActivities/shooting.webp";
+import skyCycling from "../assets/adventureActivities/skyCycling.webp";
+import wallClimbing from "../assets/adventureActivities/wallClimbing.webp";
+import zipLining from "../assets/adventureActivities/zipLining.webp";
+import indoorGames from "../assets/adventureActivities/indoorGames.webp";
+import cycling from "../assets/adventureActivities/cycling.webp";
 
 const adventurePark = [
   {

@@ -17,7 +17,7 @@ export default function GridItem({ item }) {
   return (
     <div className={styles.itemContainer}>
       <figure className={styles.imgContainer}>
-        <img src={img} alt={title} className={styles.img} />
+        <img src={img} alt={title} className={styles.img} loading="lazy" />
       </figure>
       <div className={styles.infoContainer}>
         <h2 className={styles.title}>{title}</h2>

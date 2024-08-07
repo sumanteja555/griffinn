@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 // logo import
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 
 import styles from "./NavbarItem.module.css";
 import { NavLink } from "react-router-dom";
@@ -57,23 +57,39 @@ function NavbarItem() {
               Home
             </NavLink>
             <NavDropdown title="Activities" id="basic-nav-dropdown">
-              <NavDropdown.Item onClick={handleSelect}>
-                <NavLink to="/adventurepark" className="dropdown-item">
+              <NavDropdown.Item>
+                <NavLink
+                  to="/adventurepark"
+                  className="dropdown-item"
+                  onClick={handleSelect}
+                >
                   Adventure Park
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={handleSelect}>
-                <NavLink to="/nightcamps" className="dropdown-item">
+              <NavDropdown.Item>
+                <NavLink
+                  to="/nightcamps"
+                  className="dropdown-item"
+                  onClick={handleSelect}
+                >
                   Night Camps
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={handleSelect}>
-                <NavLink to="/mountaintreks" className="dropdown-item">
+              <NavDropdown.Item>
+                <NavLink
+                  to="/mountaintreks"
+                  className="dropdown-item"
+                  onClick={handleSelect}
+                >
                   Mountain Treks
                 </NavLink>
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={handleSelect}>
-                <NavLink to="/weekendgateway" className="dropdown-item">
+              <NavDropdown.Item>
+                <NavLink
+                  to="/weekendgateway"
+                  className="dropdown-item"
+                  onClick={handleSelect}
+                >
                   Weekend Gateway
                 </NavLink>
               </NavDropdown.Item>

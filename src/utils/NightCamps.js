@@ -1,8 +1,8 @@
-import one from "../assets/nightCamps/nightcamps.jpg";
-import two from "../assets/nightCamps/nightcampsone.jpg";
-import three from "../assets/nightCamps/nightcampstwo.jpg";
-import four from "../assets/nightCamps/nightcampsthree.jpg";
-import five from "../assets/nightCamps/nightcampsfour.jpg";
+import one from "../assets/nightCamps/nightcamps.webp";
+import two from "../assets/nightCamps/nightcampsone.webp";
+import three from "../assets/nightCamps/nightcampstwo.webp";
+import four from "../assets/nightCamps/nightcampsthree.webp";
+import five from "../assets/nightCamps/nightcampsfour.webp";
 
 const nightCamps = {
   title: "Night Camping",

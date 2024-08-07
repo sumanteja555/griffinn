@@ -5,14 +5,14 @@ import "swiper/css";
 
 import { Autoplay } from "swiper/modules";
 
-import homeCarouselOne from "../../../assets/home/homeCarouselOne.jpg";
-import homeCarouselTwo from "../../../assets/home/homeCarouselTwo.jpg";
-import homeCarouselThree from "../../../assets/home/homeCarouselThree.jpg";
-import homeCarouselFour from "../../../assets/home/homeCarouselFour.jpg";
-import homeCarouselFive from "../../../assets/home/homeCarouselFive.jpg";
-import homeCarouselSix from "../../../assets/home/homeCarouselSix.jpg";
-import homeCarouselSeven from "../../../assets/home/homeCarouselSeven.jpg";
-import logo from "../../../assets/logo.png";
+import homeCarouselOne from "../../../assets/home/homeCarouselOne.webp";
+import homeCarouselTwo from "../../../assets/home/homeCarouselTwo.webp";
+import homeCarouselThree from "../../../assets/home/homeCarouselThree.webp";
+import homeCarouselFour from "../../../assets/home/homeCarouselFour.webp";
+import homeCarouselFive from "../../../assets/home/homeCarouselFive.webp";
+import homeCarouselSix from "../../../assets/home/homeCarouselSix.webp";
+import homeCarouselSeven from "../../../assets/home/homeCarouselSeven.webp";
+import logo from "../../../assets/logo1.webp";
 
 const carouselImages = [
   {
@@ -62,7 +62,12 @@ export default function HomeCover() {
         {carouselImages.map(({ alt, src }) => {
           return (
             <SwiperSlide key={alt}>
-              <img src={src} alt={alt} className={styles.carouselImage} />
+              <img
+                src={src}
+                alt={alt}
+                className={styles.carouselImage}
+                loading="lazy"
+              />
             </SwiperSlide>
           );
         })}

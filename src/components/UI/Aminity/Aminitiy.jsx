@@ -5,7 +5,12 @@ export default function Aminity({ aminity }) {
   return (
     <div className={styles.aminityContainer}>
       <figure className={styles.logoWrapper}>
-        <img src={img} alt={title} className={styles.aminityLogo} />
+        <img
+          src={img}
+          alt={title}
+          className={styles.aminityLogo}
+          loading="lazy"
+        />
       </figure>
       <p className={styles.aminityTitle}>{title}</p>
     </div>

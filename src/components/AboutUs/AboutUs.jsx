@@ -6,9 +6,9 @@ import Team from "./Team";
 import { Accordion } from "react-bootstrap";
 
 // image imports
-import saiteja from "../../assets/sai.png";
-import rajendra from "../../assets/rajendra.jpeg";
-import lakshmi from "../../assets/lakshmi.jpg";
+import saiteja from "../../assets/sai.webp";
+import rajendra from "../../assets/rajendra.webp";
+import lakshmi from "../../assets/lakshmi.webp";
 
 const team = [
   {

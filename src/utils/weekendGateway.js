@@ -1,77 +1,77 @@
-import dandeliImg from "../assets/weekendGateways/dandelli.jpeg";
+import dandeliImg from "../assets/weekendGateways/dandelli.webp";
 import chikmangaluruImg from "../assets/weekendGateways/chikmangaluru.webp";
 import ootyImg from "../assets/weekendGateways/ooty.webp";
-import wayanadImg from "../assets/weekendGateways/wayanad.jpg";
-import pondicherryImg from "../assets/weekendGateways/pondicherry.jpg";
-import coorgImg from "../assets/weekendGateways/coorg.jpg";
+import wayanadImg from "../assets/weekendGateways/wayanad.webp";
+import pondicherryImg from "../assets/weekendGateways/pondicherry.webp";
+import coorgImg from "../assets/weekendGateways/coorg.webp";
 import gokarnaImg from "../assets/weekendGateways/gokarna.webp";
-import hampiImg from "../assets/weekendGateways/hampi.jpg";
+import hampiImg from "../assets/weekendGateways/hampi.webp";
 
 // dandelli imports
-import dandeliOne from "../assets/weekendGateways/dandelli/dandeli1.jpg";
-import dandeliTwo from "../assets/weekendGateways/dandelli/dandeli2.jpg";
-import dandeliThree from "../assets/weekendGateways/dandelli/dandeli3.jpg";
-import dandeliFour from "../assets/weekendGateways/dandelli/dandeli4.jpg";
-import dandeliFive from "../assets/weekendGateways/dandelli/gokarna1.jpg";
-import dandeliSix from "../assets/weekendGateways/dandelli/gokarna2.jpeg";
+import dandeliOne from "../assets/weekendGateways/dandelli/dandeli1.webp";
+import dandeliTwo from "../assets/weekendGateways/dandelli/dandeli2.webp";
+import dandeliThree from "../assets/weekendGateways/dandelli/dandeli3.webp";
+import dandeliFour from "../assets/weekendGateways/dandelli/dandeli4.webp";
+import dandeliFive from "../assets/weekendGateways/dandelli/gokarna1.webp";
+import dandeliSix from "../assets/weekendGateways/dandelli/gokarna2.webp";
 
 // chikmangaluru import
 
-import chikmangaluruOne from "../assets/weekendGateways/chikmangaluru/chikmangaluru1.jpg";
-import chikmangaluruTwo from "../assets/weekendGateways/chikmangaluru/chikmangaluru2.jpg";
-import chikmangaluruThree from "../assets/weekendGateways/chikmangaluru/chikmangaluru3.jpg";
+import chikmangaluruOne from "../assets/weekendGateways/chikmangaluru/chikmangaluru1.webp";
+import chikmangaluruTwo from "../assets/weekendGateways/chikmangaluru/chikmangaluru2.webp";
+import chikmangaluruThree from "../assets/weekendGateways/chikmangaluru/chikmangaluru3.webp";
 import chikmangaluruFour from "../assets/weekendGateways/chikmangaluru/chikmangaluru4.webp";
-import chikmangaluruFive from "../assets/weekendGateways/chikmangaluru/chikmangaluru5.jpg";
-import chikmangaluruSix from "../assets/weekendGateways/chikmangaluru/chikmangaluru6.jpg";
+import chikmangaluruFive from "../assets/weekendGateways/chikmangaluru/chikmangaluru5.webp";
+import chikmangaluruSix from "../assets/weekendGateways/chikmangaluru/chikmangaluru6.webp";
 
 // coonoor imports
 
-import coonoorOne from "../assets/weekendGateways/coonoor/coonoor1.jpg";
-import coonoorTwo from "../assets/weekendGateways/coonoor/coonoor2.png";
-import coonoorThree from "../assets/weekendGateways/coonoor/coonoor3.jpg";
-import coonoorFour from "../assets/weekendGateways/coonoor/coonoor4.jpg";
-import coonoorFive from "../assets/weekendGateways/coonoor/coonoor5.jpg";
-import coonoorSix from "../assets/weekendGateways/coonoor/coonoor6.png";
+import coonoorOne from "../assets/weekendGateways/coonoor/coonoor1.webp";
+import coonoorTwo from "../assets/weekendGateways/coonoor/coonoor2.webp";
+import coonoorThree from "../assets/weekendGateways/coonoor/coonoor3.webp";
+import coonoorFour from "../assets/weekendGateways/coonoor/coonoor4.webp";
+import coonoorFive from "../assets/weekendGateways/coonoor/coonoor5.webp";
+import coonoorSix from "../assets/weekendGateways/coonoor/coonoor6.webp";
 
 // wayanad import
-import wayanadOne from "../assets/weekendGateways/wayanad/wayanad1.jpg";
-import wayanadTwo from "../assets/weekendGateways/wayanad/wayanad2.jpg";
-import wayanadThree from "../assets/weekendGateways/wayanad/wayanad3.jpg";
-import wayanadFour from "../assets/weekendGateways/wayanad/wayanad4.jpg";
-import wayanadFive from "../assets/weekendGateways/wayanad/wayanad5.jpg";
-import wayanadSix from "../assets/weekendGateways/wayanad/wayanad6.jpg";
+import wayanadOne from "../assets/weekendGateways/wayanad/wayanad1.webp";
+import wayanadTwo from "../assets/weekendGateways/wayanad/wayanad2.webp";
+import wayanadThree from "../assets/weekendGateways/wayanad/wayanad3.webp";
+import wayanadFour from "../assets/weekendGateways/wayanad/wayanad4.webp";
+import wayanadFive from "../assets/weekendGateways/wayanad/wayanad5.webp";
+import wayanadSix from "../assets/weekendGateways/wayanad/wayanad6.webp";
 
 // pondicherry import
-import pondicherryOne from "../assets/weekendGateways/pondicherry/pondicherry1.jpg";
-import pondicherryTwo from "../assets/weekendGateways/pondicherry/pondicherry2.jpg";
-import pondicherryThree from "../assets/weekendGateways/pondicherry/pondicherry3.jpg";
-import pondicherryFour from "../assets/weekendGateways/pondicherry/pondicherry4.jpg";
-import pondicherryFive from "../assets/weekendGateways/pondicherry/pondicherry5.jpg";
-import pondicherrySix from "../assets/weekendGateways/pondicherry/pondicherry6.png";
+import pondicherryOne from "../assets/weekendGateways/pondicherry/pondicherry1.webp";
+import pondicherryTwo from "../assets/weekendGateways/pondicherry/pondicherry2.webp";
+import pondicherryThree from "../assets/weekendGateways/pondicherry/pondicherry3.webp";
+import pondicherryFour from "../assets/weekendGateways/pondicherry/pondicherry4.webp";
+import pondicherryFive from "../assets/weekendGateways/pondicherry/pondicherry5.webp";
+import pondicherrySix from "../assets/weekendGateways/pondicherry/pondicherry6.webp";
 
 // coorg imports
-import coorgOne from "../assets/weekendGateways/coorg/coorg1.jpg";
-import coorgTwo from "../assets/weekendGateways/coorg/coorg2.jpg";
-import coorgThree from "../assets/weekendGateways/coorg/coorg3.jpg";
-import coorgFour from "../assets/weekendGateways/coorg/coorg4.jpg";
-import coorgFive from "../assets/weekendGateways/coorg/coorg5.jpg";
-import coorgSix from "../assets/weekendGateways/coorg/coorg6.jpg";
+import coorgOne from "../assets/weekendGateways/coorg/coorg1.webp";
+import coorgTwo from "../assets/weekendGateways/coorg/coorg2.webp";
+import coorgThree from "../assets/weekendGateways/coorg/coorg3.webp";
+import coorgFour from "../assets/weekendGateways/coorg/coorg4.webp";
+import coorgFive from "../assets/weekendGateways/coorg/coorg5.webp";
+import coorgSix from "../assets/weekendGateways/coorg/coorg6.webp";
 
 // gokarna imports
-import gokarnaOne from "../assets/weekendGateways/gokarna/gokarna1.jpg";
+import gokarnaOne from "../assets/weekendGateways/gokarna/gokarna1.webp";
 import gokarnaTwo from "../assets/weekendGateways/gokarna/gokarna2.webp";
-import gokarnaThree from "../assets/weekendGateways/gokarna/gokarna3.jpg";
-import gokarnaFour from "../assets/weekendGateways/gokarna/gokarna4.jpg";
+import gokarnaThree from "../assets/weekendGateways/gokarna/gokarna3.webp";
+import gokarnaFour from "../assets/weekendGateways/gokarna/gokarna4.webp";
 import gokarnaFive from "../assets/weekendGateways/gokarna/gokarna5.webp";
-import gokarnaSix from "../assets/weekendGateways/gokarna/gokarna6.jpg";
+import gokarnaSix from "../assets/weekendGateways/gokarna/gokarna6.webp";
 
 // hampi imports
-import hampiOne from "../assets/weekendGateways/hampi/hampi1.jpg";
-import hampiTwo from "../assets/weekendGateways/hampi/hampi2.jpg";
-import hampiThree from "../assets/weekendGateways/hampi/hampi3.jpg";
-import hampiFour from "../assets/weekendGateways/hampi/hampi4.jpg";
-import hampiFive from "../assets/weekendGateways/hampi/hampi5.jpg";
-import hampiSix from "../assets/weekendGateways/hampi/hampi6.jpg";
+import hampiOne from "../assets/weekendGateways/hampi/hampi1.webp";
+import hampiTwo from "../assets/weekendGateways/hampi/hampi2.webp";
+import hampiThree from "../assets/weekendGateways/hampi/hampi3.webp";
+import hampiFour from "../assets/weekendGateways/hampi/hampi4.webp";
+import hampiFive from "../assets/weekendGateways/hampi/hampi5.webp";
+import hampiSix from "../assets/weekendGateways/hampi/hampi6.webp";
 
 const weekendGateways = [
   {

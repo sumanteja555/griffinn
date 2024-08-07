@@ -1,8 +1,7 @@
-import adventure from "../assets/home/adventure.jpg";
-import night from "../assets/home/night.jpg";
-import backPack from "../assets/home/backpack.jpg";
-import mountainTreks from "../assets/home/treks.jpg";
-import weekend from "../assets/home/weekend.jpg";
+import adventure from "../assets/home/adventure.webp";
+import night from "../assets/home/night.webp";
+import mountainTreks from "../assets/home/treks.webp";
+import weekend from "../assets/home/weekend.webp";
 
 export const reviews = [
   {

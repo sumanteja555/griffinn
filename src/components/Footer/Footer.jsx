@@ -1,8 +1,45 @@
 import styles from "./Footer.module.css";
 import ImpLinks from "./ImpLinks";
 
-import webLinks, { socialLinks } from "../../utils/footer";
 import SocialLinks from "./SocialLinks";
+
+const webLinks = {
+  title: "Quick Links",
+  links: [
+    {
+      address: "/",
+      name: "home",
+    },
+    {
+      address: "/aboutus",
+      name: "about us",
+    },
+    {
+      address: "/adventureactivities",
+      name: "Adventurue Activites",
+    },
+    {
+      address: "/nightcamps",
+      name: "Night Camps",
+    },
+    {
+      address: "/mountaintreks",
+      name: "Mountain Treks",
+    },
+    {
+      address: "/gallery",
+      name: "gallery",
+    },
+    {
+      address: "/volunteer",
+      name: "Volunteer",
+    },
+    {
+      address: "/policies",
+      name: "policies",
+    },
+  ],
+};
 
 export default function Footer() {
   return (

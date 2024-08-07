@@ -11,21 +11,15 @@ const GallerPage = lazy(() => import("./components/Gallery/Gallery.jsx")); //gal
 const ContactusPage = lazy(() =>
   import("./components/ContactUs/ContactUs.jsx")
 ); //contact us page import
-const AdventureparkPage = lazy(() => import("./pages/AdventurePark.jsx")); //adventure activities page import
 const NightscampsPage = lazy(() => import("./pages/NightCamps.jsx")); //nightcamps page import
-const MountaintreksPage = lazy(() => import("./pages/MountainTreks.jsx")); //mountain treks imports
-const MountaintreksEventPage = lazy(() =>
-  import("./pages/MountaintreksEventPage.jsx")
-); //mountain treks event page import
-const WeekendgatewayPage = lazy(() => import("./pages/WeekendGateway.jsx")); //weekend gateway import
-const WeekendgatewayEventPage = lazy(() =>
-  import("./pages/WeekendgatewayEventPage.jsx")
-);
 const BooknowPage = lazy(() => import("./components/BookNow/BookNow.jsx")); //booknow component import
 const PoliciesPage = lazy(() => import("./components/Policies/Policies.jsx")); //policies page import
 const VolunteerPage = lazy(() =>
   import("./components/Volunteer/Volunteer.jsx")
 ); //volunteer page import
+
+const TrekPage = lazy(() => import("./pages/TrekPage.jsx"));
+const EventPage = lazy(() => import("./pages/EventPage.jsx"));
 
 const router = createBrowserRouter([
   {
@@ -66,10 +60,10 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/adventurepark",
+        path: "/:trekId",
         element: (
           <Suspense>
-            <AdventureparkPage />
+            <TrekPage />
           </Suspense>
         ),
       },
@@ -82,13 +76,13 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/mountaintreks",
+        path: "/:trekId",
         children: [
           {
             index: true,
             element: (
               <Suspense>
-                <MountaintreksPage />
+                <TrekPage />
               </Suspense>
             ),
           },
@@ -96,20 +90,20 @@ const router = createBrowserRouter([
             path: ":eventId",
             element: (
               <Suspense>
-                <MountaintreksEventPage />
+                <EventPage />
               </Suspense>
             ),
           },
         ],
       },
       {
-        path: "/weekendgateway",
+        path: "/:trekId",
         children: [
           {
             index: true,
             element: (
               <Suspense>
-                <WeekendgatewayPage />
+                <TrekPage />
               </Suspense>
             ),
           },
@@ -117,7 +111,7 @@ const router = createBrowserRouter([
             path: ":eventId",
             element: (
               <Suspense>
-                <WeekendgatewayEventPage />
+                <EventPage />
               </Suspense>
             ),
           },

@@ -1,57 +1,57 @@
 // main events images imports
 import devakundWaterfallsImg from "../assets/mountainTreks/devekundWaterfalls.webp";
-import dudhsagarWaterfallsImg from "../assets/mountainTreks/dudhsagarWaterfalls.jpg";
-import hariharFort from "../assets/mountainTreks/hariharFort.jpg";
-import harischandragadImg from "../assets/mountainTreks/harischandragad.jpg";
-import kalusbaiImg from "../assets/mountainTreks/kalsubai.jpg";
-import rajmachiFortImg from "../assets/mountainTreks/rajmachiFort.jpg";
+import dudhsagarWaterfallsImg from "../assets/mountainTreks/dudhsagarWaterfalls.webp";
+import hariharFort from "../assets/mountainTreks/hariharFort.webp";
+import harischandragadImg from "../assets/mountainTreks/harischandragad.webp";
+import kalusbaiImg from "../assets/mountainTreks/kalsubai.webp";
+import rajmachiFortImg from "../assets/mountainTreks/rajmachiFort.webp";
 
 // andharbanDevakund waterfalls trek image imports
-import andharbanOne from "../assets/mountainTreks/andharban_devakund_waterfall/andharban1.jpg";
-import andharbanTwo from "../assets/mountainTreks/andharban_devakund_waterfall/andharban2.jpg";
+import andharbanOne from "../assets/mountainTreks/andharban_devakund_waterfall/andharban1.webp";
+import andharbanTwo from "../assets/mountainTreks/andharban_devakund_waterfall/andharban2.webp";
 import andharbanThree from "../assets/mountainTreks/andharban_devakund_waterfall/andharban3.webp";
 import andharbanFour from "../assets/mountainTreks/andharban_devakund_waterfall/andharban4.webp";
-import devakundOne from "../assets/mountainTreks/andharban_devakund_waterfall/devakund1.jpg";
-import devakundTwo from "../assets/mountainTreks/andharban_devakund_waterfall/devakund2.jpg";
+import devakundOne from "../assets/mountainTreks/andharban_devakund_waterfall/devakund1.webp";
+import devakundTwo from "../assets/mountainTreks/andharban_devakund_waterfall/devakund2.webp";
 import devakundThree from "../assets/mountainTreks/andharban_devakund_waterfall/devakund3.webp";
 
 // dudhsagar waterfalls image import
 
-import dudhsagarOne from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls1.jpg";
-import dudhsagarTwo from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls2.jpg";
-import dudhsagarThree from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls3.jpg";
+import dudhsagarOne from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls1.webp";
+import dudhsagarTwo from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls2.webp";
+import dudhsagarThree from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls3.webp";
 import dudhsagarFour from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls4.webp";
-import dudhsagarFive from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls5.jpg";
+import dudhsagarFive from "../assets/mountainTreks/dudhsagarWaterfalls/dudhsagarWaterfalls5.webp";
 
 // harihar fort treks images
-import hariharOne from "../assets/mountainTreks/hariharfort/harihar1.jpg";
-import hariharTwo from "../assets/mountainTreks/hariharfort/harihar2.jpg";
-import hariharThree from "../assets/mountainTreks/hariharfort/harihar3.jpg";
-import hariharFour from "../assets/mountainTreks/hariharfort/harihar4.jpg";
+import hariharOne from "../assets/mountainTreks/hariharfort/harihar1.webp";
+import hariharTwo from "../assets/mountainTreks/hariharfort/harihar2.webp";
+import hariharThree from "../assets/mountainTreks/hariharfort/harihar3.webp";
+import hariharFour from "../assets/mountainTreks/hariharfort/harihar4.webp";
 import hariharFive from "../assets/mountainTreks/hariharfort/harihar5.webp";
 
 // harishchandragad trek images
 import harishchandragadOne from "../assets/mountainTreks/hairshchandragad/harishchandragad1.webp";
 import harishchandragadTwo from "../assets/mountainTreks/hairshchandragad/harishchandragad2.webp";
-import harishchandragadThree from "../assets/mountainTreks/hairshchandragad/harishchandragad3.jpg";
-import harishchandragadFour from "../assets/mountainTreks/hairshchandragad/harishchandragad4.jpg";
-import harishchandragadFive from "../assets/mountainTreks/hairshchandragad/harishchandragad5.jpg";
+import harishchandragadThree from "../assets/mountainTreks/hairshchandragad/harishchandragad3.webp";
+import harishchandragadFour from "../assets/mountainTreks/hairshchandragad/harishchandragad4.webp";
+import harishchandragadFive from "../assets/mountainTreks/hairshchandragad/harishchandragad5.webp";
 import harishchandragadSix from "../assets/mountainTreks/hairshchandragad/harishchandragad6.webp";
 
 // kalsubai trek images
 import kalsubaiOne from "../assets/mountainTreks/kalsubai/kalsubai1.webp";
 import kalsubaiTwo from "../assets/mountainTreks/kalsubai/kalsubai2.webp";
-import kalsubaiThree from "../assets/mountainTreks/kalsubai/kalsubai3.jpg";
-import kalsubaiFour from "../assets/mountainTreks/kalsubai/kalsubai4.jpg";
-import kalsubaiFive from "../assets/mountainTreks/kalsubai/kalsubai5.jpg";
-import kalsubaiSix from "../assets/mountainTreks/kalsubai/kalsubai6.jpg";
+import kalsubaiThree from "../assets/mountainTreks/kalsubai/kalsubai3.webp";
+import kalsubaiFour from "../assets/mountainTreks/kalsubai/kalsubai4.webp";
+import kalsubaiFive from "../assets/mountainTreks/kalsubai/kalsubai5.webp";
+import kalsubaiSix from "../assets/mountainTreks/kalsubai/kalsubai6.webp";
 
 // rajmachi fort trek images
-import rajmachiOne from "../assets/mountainTreks/rajmachi/rajmachi1.jpg";
+import rajmachiOne from "../assets/mountainTreks/rajmachi/rajmachi1.webp";
 import rajmachiTwo from "../assets/mountainTreks/rajmachi/rajmachi2.webp";
 import rajmachiThree from "../assets/mountainTreks/rajmachi/rajmachi3.webp";
-import rajmachiFour from "../assets/mountainTreks/rajmachi/rajmachi4.jpg";
-import rajmachiFive from "../assets/mountainTreks/rajmachi/rajmachi5.jpg";
+import rajmachiFour from "../assets/mountainTreks/rajmachi/rajmachi4.webp";
+import rajmachiFive from "../assets/mountainTreks/rajmachi/rajmachi5.webp";
 import rajmachiSix from "../assets/mountainTreks/rajmachi/rajmachi6.webp";
 
 // main details of all the treks
